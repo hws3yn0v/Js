@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="credit">
+        <div class="top">
+            <label for="">Kredit məbləği</label>
+            <br>
+            <input type="text" id="credit_amount" placeholder="10000">
+        </div>
+        <div class="bottom">
+            <div>
+                <label for="">Kredit müddəti</label>
+                <br>
+                <input type="text" id="credit_month" placeholder="48 ay">
+            </div>
+            <div>
+                <label for="">Faiz dərəcəsi</label>
+                <br>
+                <input type="text" id="credit_percent" placeholder="12%">
+            </div>
+        </div>
+        <div class="info">
+            <div class="price">
+                <h2>Aylıq ödəniş</h2>
+                <h1 id="month_price">0</h1>
+            </div>
+        </div>
+        <div class="button">
+            <button onclick="btn()">Müraciət et</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
