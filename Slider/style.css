@@ -1,0 +1,22 @@
+.image {
+  text-align: center;
+}
+.image img {
+  text-align: center;
+  width: 50%;
+  height: auto;
+  margin: 5px;
+  transition: 0.4s;
+}
+.image img:nth-child(2) {
+  text-align: center;
+  display: none;
+}
+.image img:nth-child(3) {
+  text-align: center;
+  display: none;
+}
+
+.radio {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,25 @@
+.stickman {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+.stickman img {
+  width: 10%;
+  height: auto;
+}
+.stickman #player {
+  position: absolute;
+}
+.stickman #npc {
+  margin-left: 50rem;
+  position: relative;
+}
+
+.control {
+  position: absolute;
+  bottom: 0;
+}
+.control .ctrl-top {
+  margin-left: 5rem;
+}/*# sourceMappingURL=style.css.map */
